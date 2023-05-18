@@ -1,0 +1,58 @@
+.navbar{
+    color:black;
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.feed {
+    background-color: rgb(222, 219, 219);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: auto;
+  }
+
+.frame{
+  background-color:white;
+  height: auto;
+  width: 40%;
+  margin: 25px;
+}
+
+.topsection{
+  position: relative;
+  background-color:white;
+  display: flex;
+}
+.titlephoto{
+  color:black;
+  text-align: left;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  margin-left: 2%;
+}
+.datephoto{
+  position: absolute;
+  right:0;
+  padding-right: 1%;
+  color: grey;
+  
+}
+.datephoto p{
+  text-align: right;
+}
+.downsection{
+  background-color: white;
+  height: auto;
+}
+.downsection p{
+  margin-left: 2%;
+  text-align: left;
+}
+ 
+.foto img {
+  width: 100%;
+  height: 100%;
+}
+  
